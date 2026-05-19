@@ -14,8 +14,7 @@ jobs:
       - uses: Platane/snk@v3
         with:
           github_user_name: AkiraYotsu
-          outputs: |
-  dist/github-contribution-grid-snake.svg?palette=gitlab-dark
+          outputs: dist/github-contribution-grid-snake.svg?palette=gitlab-dark
 
       - uses: crazy-max/ghaction-github-pages@v3
         with:
